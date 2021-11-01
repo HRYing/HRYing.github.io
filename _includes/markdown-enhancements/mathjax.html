@@ -9,7 +9,7 @@
 	var _config = { tex2jax: {
 		inlineMath: [['$','$'], ['\\(','\\)']]
 	}};
-	{%- if _mathjax_autoNumber == true -%}
+	{%- if _mathjax_autoNumber == null -%}
 		_config.TeX = { equationNumbers: { autoNumber: "all" } };
 	{%- endif -%}
 	MathJax.Hub.Config(_config);
