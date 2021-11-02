@@ -8,6 +8,7 @@ date: 2021-11-01
 description: "java，springmvc,视图层，狂神说java"
 
 tag: springmvc
+mathjax: true
 ---
 
 # 1、回顾MVC
